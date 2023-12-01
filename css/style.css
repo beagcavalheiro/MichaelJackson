@@ -1,0 +1,115 @@
+* {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+nav,
+a {
+    font-size: 17px;
+    background-color: rgb(90, 45, 7);
+    color: white;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+#autoras {
+    color: dimgray;
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.h1nomes {
+    font-size: 40px;
+}
+
+#video {
+    width: 960px;
+}
+
+.text {
+    display: table-cell;
+    float: right;
+    width: 630px;
+    margin-top: -155px;
+    margin-right: 30px;
+}
+
+.img {
+    display: table-cell;
+}
+
+.img2 {
+    text-align: center;
+
+}
+
+.formulario {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
